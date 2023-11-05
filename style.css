@@ -6,6 +6,7 @@
 }
 
 .hero{
+    overflow: hidden;
     height: 100vh;
     width: 100%;
     background-image: url(https://e0.pxfuel.com/wallpapers/957/770/desktop-wallpaper-black-and-white-galaxy-dark-galaxy.jpg);
