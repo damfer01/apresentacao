@@ -13,8 +13,15 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: border-box;
+    background-size: border-box;
     
+}
+
+.content-page {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 96px 42px 0px 42px;
 }
 
 nav{
@@ -71,10 +78,7 @@ nav ul li a:hover{
 }
 
 .content{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
+    padding: 16px;
 }
 
 h1{
@@ -127,7 +131,7 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px ;
-    background-color: #100f0f;
+    background-color: #100f0f44;
 }
 
 .about img{
@@ -189,7 +193,7 @@ button:hover{
 }
 
 .service{
-    background: #101010;
+    background: #10101044;
     width: 100%;
     padding: 100px 0px;
 }
@@ -213,7 +217,7 @@ button:hover{
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: #191919;
+    background: #19191944;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -260,7 +264,8 @@ h5{
 .contact-me{
     width: 100%;
     height: 290px;
-    background: #191919;
+    background: #19191944;
+    color: #FFF;
     display: flex;
     align-items: center;
     flex-direction: column;
