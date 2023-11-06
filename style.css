@@ -6,7 +6,7 @@
 }
 
 .hero{
-    overflow: hidden;
+    overflow:auto;
     height: 100vh;
     width: 100%;
     background-image: url(https://e0.pxfuel.com/wallpapers/957/770/desktop-wallpaper-black-and-white-galaxy-dark-galaxy.jpg);
@@ -18,6 +18,7 @@
 }
 
 .content-page {
+    overflow: auto;
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -46,13 +47,13 @@ span{
   
 }
 
-nav ul li{
+nav > ul > li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
 
-nav ul li a {
+nav > ul > li > a {
     color: #f8f8f8;
     text-decoration: none;
     font-weight: bold;
@@ -105,7 +106,7 @@ h4{
      position: relative;   
 }
 
-.newslatter form input:first-child{
+.newslatter form > input:first-child{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
@@ -114,7 +115,7 @@ h4{
     border-radius: 30px;
 }
 
-.newslatter form input:last-child{
+.newslatter form > input:last-child{
     position: absolute;
     display: inline-block;
     outline: none;
@@ -322,7 +323,7 @@ footer p:nth-child(2){
     margin-bottom: 10px;
 }
 
-.social{
+.social {
     display: flex;
 }
 
