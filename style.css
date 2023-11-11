@@ -6,7 +6,7 @@
 }
 
 .hero{
-    overflow:auto;
+    overflow:hidden;
     height: 100vh;
     width: 100%;
     background-image: url(https://e0.pxfuel.com/wallpapers/957/770/desktop-wallpaper-black-and-white-galaxy-dark-galaxy.jpg);
@@ -17,11 +17,10 @@
     
 }
 
-.content-page {
-    overflow: auto;
+.content-page { 
+  overflow:auto;
     width: 100%;
     height: 100%;
-    overflow: auto;
     padding: 96px 42px 0px 42px;
 }
 
@@ -249,10 +248,11 @@ h5{
 .card .button{
     background-color: #f9004d;
     color: white;
+    text-decoration: none;
     border: 4px solid transparent; 
     font-weight: bold;
     padding:  10px 20px;
-    border-radius: 32px;
+    border-radius: 30px;
     transition: .3s;
 }
 
@@ -271,6 +271,7 @@ h5{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+     
 }
 
 .contact-me p{
@@ -278,9 +279,11 @@ h5{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
+ 
 }
 
 .contact-me .button-two{
+  
     background-color: #f9004d;
     color: white;
     border: 4px solid transparent; 
@@ -297,14 +300,13 @@ h5{
 }
 
 footer{
-    position: relative;
     width: 100%;
     height: 400px;
-    background: #19191944;
+    background: #100f0f44;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
 }
 
 footer p:nth-child(1){
@@ -325,6 +327,7 @@ footer p:nth-child(2){
 
 .social {
     display: flex;
+    
 }
 
 .social > a{
@@ -347,4 +350,10 @@ footer p:nth-child(2){
     padding:  13px 25px;
     border-radius: 32px;
     transition: .3s;  
+}
+
+.end{
+    color: white;
+    font-size:23px;
+    margin-bottom: 15px;
 }
